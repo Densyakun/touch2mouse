@@ -1,0 +1,20 @@
+{
+  "name": "Touch 2 Mouse",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "",
+  "permissions": [],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
